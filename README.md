@@ -4,7 +4,35 @@ Welcome to my Cucumber Automation Project.
 
 I created this project with the intention of practicing the knowledge acquired through courses and research.
 
+In this project, I chose to automate front-end tests on Marisa's website. Marisa is a very large and well-known women's fashion store in Brazil.
+
+I chose this specific website because its design is pleasant and easy to understand.
+
 Hope you enjoy it, feel free to reach out to me. A link to my LinkedIn profile will be available at the bottom of the page.
+
+# About the tests
+
+I used Selenium as the core of the tests, which simulates the website's usage as if it were a typical user. 
+
+I also used Cucumber to make the code readable for non-technical people and JUnit to make assertions at each step executed by Selenium.
+
+# Before starting
+
+To run the tests, you will first need to have some tools on your machine.
+
+* Git
+
+Git is required to make a copy of the project on your machine.
+
+* Java 
+
+Java is the language that was used for project development.
+
+* Maven
+
+Maven is a dependency and application build manager used in JAVA. It's also responsible for initiating test execution.
+
+To install the mentioned tools, simply go to the last section, and you will find a link to the documentation for each of these mentioned technologies."
 
 # Dependencies
 
@@ -30,6 +58,9 @@ This project uses Maven for dependency management and application build.
 
 To start the tests, you'll first need to have the project on your machine.
 You can use the 'git clone' command to make a copy of the project on your machine.
+```bash
+git clone https://github.com/matheuswachtler/CucumberAutomationProject.git
+```
 After copying the project to your machine, you can run the tests in various different ways, which include:
 
 * Running tests with the IDE
