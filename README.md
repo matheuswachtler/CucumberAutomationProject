@@ -18,7 +18,7 @@ This project uses Maven for dependency management and application build.
 | Junit-platform-suite | 5.10.0 |
 | Junit-jupiter | 5.10.0 |
 | Selenium-java | 4.12.1 |
-| Java JDK | 19 |
+| Java JDK | 19.0.2 |
 
 # Plugins
 | Artifact Id  | Version |
