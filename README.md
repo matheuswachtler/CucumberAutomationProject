@@ -66,4 +66,7 @@ I will leave a list with links to all the documentation of the frameworks used i
 * [Java Documentation](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html)
 
 # Contact
+
+Developed by Matheus Wachtler
+
 [LinkedIn](https://www.linkedin.com/in/matheus-wachtler-a9a92911a/)
