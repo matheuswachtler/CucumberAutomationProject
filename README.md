@@ -8,7 +8,9 @@ In this project, I chose to automate front-end tests on Marisa's website. Marisa
 
 I chose this specific website because its design is pleasant and easy to understand.
 
-Hope you enjoy it, feel free to reach out to me. A link to my LinkedIn profile will be available at the bottom of the page.
+Hope you enjoy it, feel free to reach out to me.
+
+A link to my LinkedIn profile will be available at the bottom of the page.
 
 # About the tests
 
@@ -32,7 +34,7 @@ Java is the language that was used for project development.
 
 Maven is a dependency and application build manager used in JAVA. It's also responsible for initiating test execution.
 
-To install the mentioned tools, simply go to the last section, and you will find a link to the documentation for each of these mentioned technologies."
+To install the mentioned tools, simply go to the bottom of the page, and you will find a link to the documentation for each of these mentioned technologies.
 
 # Dependencies
 
@@ -78,7 +80,12 @@ With the terminal open, navigate to the project's root folder (where the pom.xml
 
 ![image](https://github.com/matheuswachtler/CucumberAutomationProject/assets/76985572/ebad1247-3ba9-4bc5-9270-36a3c8c9ad1a)
 
-In the project's root folder, simply execute the command "mvn test."
+In the project's root folder, simply execute the command "mvn test"
+
+```bash
+mvn test
+```
+
 Remember, to use commands starting with 'mvn' and 'git,' you'll first need to install Maven and Git and add the variables to the system operating path.
 
 ![image](https://github.com/matheuswachtler/CucumberAutomationProject/assets/76985572/4533d5b6-c174-4647-910b-62cd73ab2a1e)
