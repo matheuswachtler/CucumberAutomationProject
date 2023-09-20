@@ -10,8 +10,8 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class BaseSteps {
-    private static final Logger logger = Logger.getLogger(BaseSteps.class.getName());
+public class HookSteps {
+    private static final Logger logger = Logger.getLogger(HookSteps.class.getName());
 
     @Before(order = 0)
     public void beforeEachScenario() {
