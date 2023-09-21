@@ -48,7 +48,7 @@ This project uses Maven for dependency management and application build.
 | Junit-platform-suite | 5.10.0 |
 | Junit-jupiter | 5.10.0 |
 | Selenium-java | 4.12.1 |
-| Java JDK | 19.0.2 |
+| Java JDK | 17.0.8 |
 
 # Plugins
 | Artifact Id  | Version |
@@ -102,7 +102,7 @@ I will leave a list with links to all the documentation of the frameworks used i
 * [Selenium Webdriver Documentation](https://www.selenium.dev/documentation/webdriver/)
 * [Maven Documentation](https://maven.apache.org/)
 * [Git Documentation](https://docs.github.com/pt/get-started/using-git/about-git)
-* [Java Documentation](https://www.oracle.com/java/technologies/javase/jdk19-archive-downloads.html)
+* [Java Documentation](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 # Contact
 
