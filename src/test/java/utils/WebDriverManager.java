@@ -30,6 +30,11 @@ public class WebDriverManager {
             if (browser.equals("chrome")) {
                 ChromeOptions options = new ChromeOptions();
                 options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
+                options.addArguments("--headless");
+                options.addArguments("--disable-extensions");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--no-sandbox");
                 System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
                 webDriver = new ChromeDriver(options);
                 webDriver.manage().window().maximize();

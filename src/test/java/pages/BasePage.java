@@ -11,6 +11,7 @@ public class BasePage {
         this.webDriver = webDriver;
         PageFactory.initElements(webDriver,this);
     }
+    
 
     public void navigate(String url) {
         webDriver.get(url);
